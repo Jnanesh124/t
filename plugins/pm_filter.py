@@ -151,9 +151,6 @@ async def next_page(bot, query):
             ]
             for file in files
         ]
-    try:
-        if settings['auto_delete']:            
-        else:
     except KeyError:
         await save_group_settings(query.message.chat.id, 'auto_delete', True)
     try:

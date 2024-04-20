@@ -1602,14 +1602,14 @@ async def auto_filter(client, msg, spoll=False):
             try:
                 if settings['auto_delete']:
                     await asyncio.sleep(90)
+                    hehe = await message.reply_text("Searching.....🔎")
                     await hehe.delete()
-                    await message.reply_text("Searching.....🔎")
                     await message.delete()
             except KeyError:
                 await save_group_settings(message.chat.id, 'auto_delete', True)
                 await asyncio.sleep(70)
+                hehe = await message.reply_text("Searching.....🔎")
                 await hehe.delete()
-                await message.reply_text("Searching.....🔎")
                 await message.delete()
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
@@ -1619,13 +1619,11 @@ async def auto_filter(client, msg, spoll=False):
                 if settings['auto_delete']:
                     await asyncio.sleep(70)
                     await hmm.delete()
-                    await message.reply_text("Searching.....🔎")
                     await message.delete()
             except KeyError:
                 await save_group_settings(message.chat.id, 'auto_delete', True)
                 await asyncio.sleep(70)
                 await hmm.delete()
-                await message.reply_text("Searching.....🔎")
                 await message.delete()
         except Exception as e:
             logger.exception(e)
@@ -1633,28 +1631,28 @@ async def auto_filter(client, msg, spoll=False):
             try:
                 if settings['auto_delete']:
                     await asyncio.sleep(70)
+                    fek = await message.reply_text("Searching.....🔎")
                     await fek.delete()
-                    await message.reply_text("Searching.....🔎")
                     await message.delete()
             except KeyError:
                 await save_group_settings(message.chat.id, 'auto_delete', True)
                 await asyncio.sleep(70)
+                fek = await message.reply_text("Searching.....🔎")
                 await fek.delete()
-                await message.reply_text("Searching.....🔎")
                 await message.delete()
     else:
         fuk = await message.reply_text(text=cap, reply_markup=InlineKeyboardMarkup(btn))
         try:
             if settings['auto_delete']:
                 await asyncio.sleep(70)
+                fuk = await message.reply_text("Searching.....🔎")
                 await fuk.delete()
-                await message.reply_text("Searching.....🔎")
                 await message.delete()
         except KeyError:
             await save_group_settings(message.chat.id, 'auto_delete', True)
             await asyncio.sleep(70)
+            fuk = await message.reply_text("Searching.....🔎")
             await fuk.delete()
-            await message.reply_text("Searching.....🔎")
             await message.delete()
     if spoll:
         await msg.message.delete()

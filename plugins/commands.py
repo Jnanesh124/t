@@ -61,7 +61,13 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "❆ Jᴏɪɴ Oᴜʀ Bᴀᴄᴋ-Uᴘ Cʜᴀɴɴᴇʟ ❆", url=invite_link.invite_link
+                    "Backup Channel 1", url=invite_link.invite_link
+                ),
+                InlineKeyboardButton(
+                    "Backup Channel 2", url=f"https://t.me/+q-PhLzazP-AzOGI1"
+                ),
+                InlineKeyboardButton(
+                    "Backup Channel 3", url=f"https://t.me/+EVHwFEL-OWdlMjM1"
                 ),
                 InlineKeyboardButton(
                     "Subscribe YouTube channel", url=f"https://youtube.com/@Jnentertainment.?si=jQtbAMXFI2sECql2"

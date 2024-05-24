@@ -610,6 +610,7 @@ async def send_all(bot, userid, files, ident):
             invite_link_2 = await bot.create_chat_invite_link(int(AUTH_CHANNEL_2))
             invite_link_3 = await bot.create_chat_invite_link(int(AUTH_CHANNEL_3))
             invite_link_4 = await bot.create_chat_invite_link(int(AUTH_CHANNEL_4))
+            invite_link_5 = await bot.create_chat_invite_link(int(AUTH_CHANNEL_5))
         except ChatAdminRequired:
             logger.error("Mᴀᴋᴇ sᴜʀᴇ Bᴏᴛ ɪs ᴀᴅᴍɪɴ ɪɴ Fᴏʀᴄᴇsᴜʙ ᴄʜᴀɴɴᴇʟ")
             return
@@ -625,6 +626,8 @@ async def send_all(bot, userid, files, ident):
                 InlineKeyboardButton("Backup Channel 3", url=invite_link_3.invite_link)
             ],[
                 InlineKeyboardButton("Backup Channel 4", url=invite_link_4.invite_link)
+            ],[
+                InlineKeyboardButton("Backup Channel 5", url=invite_link_5.invite_link)
             ],[
                 InlineKeyboardButton("Subscribe YouTube channel", url=f"https://youtube.com/@Jnentertainment.?si=jQtbAMXFI2sECql2")
             ],[
@@ -677,7 +680,7 @@ async def send_all(bot, userid, files, ident):
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
+                        InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/alonekingjnanesh")
                         ]
                     ]
                 )

@@ -8,7 +8,7 @@ from pyrogram.errors import ChatAdminRequired, FloodWait
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from database.ia_filterdb import Media, Media2, get_file_details, unpack_new_file_id
 from database.users_chats_db import db
-from info import CHANNELS, ADMINS, AUTH_CHANNEL, LOG_CHANNEL, PICS, BATCH_FILE_CAPTION, CUSTOM_FILE_CAPTION, PROTECT_CONTENT, CHNL_LNK, GRP_LNK, REQST_CHANNEL, SUPPORT_CHAT_ID, MAX_B_TN, IS_VERIFY, HOW_TO_VERIFY
+from info import CHANNELS, ADMINS, AUTH_CHANNEL, AUTH_CHANNEL_2, AUTH_CHANNEL_3, AUTH_CHANNEL_4, LOG_CHANNEL, PICS, BATCH_FILE_CAPTION, CUSTOM_FILE_CAPTION, PROTECT_CONTENT, CHNL_LNK, GRP_LNK, REQST_CHANNEL, SUPPORT_CHAT_ID, MAX_B_TN, IS_VERIFY, HOW_TO_VERIFY
 from utils import get_settings, get_size, is_subscribed, save_group_settings, temp, verify_user, check_token, check_verification, get_token, send_all
 from database.connections_mdb import active_connection
 import re
@@ -52,26 +52,25 @@ async def start(client, message):
             parse_mode=enums.ParseMode.HTML
         )
         return
-    if AUTH_CHANNEL and not await is_subscribed(client, message):
+    if (AUTH_CHANNEL and not await is_subscribed(client, message)) and (AUTH_CHANNEL_2 and not await is_subscribed(client, message)) and (AUTH_CHANNEL_3 and not await is_subscribed(client, message)) and (AUTH_CHANNEL_4 and not await is_subscribed(client, message)):
         try:
             invite_link = await client.create_chat_invite_link(int(AUTH_CHANNEL))
+            invite_link_2 = await client.create_chat_invite_link(int(AUTH_CHANNEL_2))
+            invite_link_3 = await client.create_chat_invite_link(int(AUTH_CHANNEL_3))
+            invite_link_4 = await client.create_chat_invite_link(int(AUTH_CHANNEL_4))
         except ChatAdminRequired:
             logger.error("Mᴀᴋᴇ sᴜʀᴇ Bᴏᴛ ɪs ᴀᴅᴍɪɴ ɪɴ Fᴏʀᴄᴇsᴜʙ ᴄʜᴀɴɴᴇʟ")
             return
-        btn = [
-            [
-                InlineKeyboardButton(
-                    "Backup Channel 1", url=invite_link.invite_link
-                ),
-                InlineKeyboardButton(
-                    "Backup Channel 2", url=f"https://t.me/+q-PhLzazP-AzOGI1"
-                ),
-                InlineKeyboardButton(
-                    "Backup Channel 3", url=f"https://t.me/+EVHwFEL-OWdlMjM1"
-                ),
-                InlineKeyboardButton(
-                    "Subscribe YouTube channel", url=f"https://youtube.com/@Jnentertainment.?si=jQtbAMXFI2sECql2"
-                )
+        btn = [[
+                InlineKeyboardButton("Backup Channel 1", url=invite_link.invite_link)
+            ],[
+                InlineKeyboardButton("Backup Channel 2", url=invite_link_2.invite_link)
+            ],[
+                InlineKeyboardButton("Backup Channel 3", url=invite_link_3.invite_link)
+            ],[
+                InlineKeyboardButton("Backup Channel 4", url=invite_link_4.invite_link)
+            ],[
+                InlineKeyboardButton("Subscribe YouTube channel", url=f"https://youtube.com/@Jnentertainment.?si=jQtbAMXFI2sECql2")
             ]
         ]
 

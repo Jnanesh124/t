@@ -58,6 +58,7 @@ async def start(client, message):
             invite_link_2 = await client.create_chat_invite_link(int(AUTH_CHANNEL_2))
             invite_link_3 = await client.create_chat_invite_link(int(AUTH_CHANNEL_3))
             invite_link_4 = await client.create_chat_invite_link(int(AUTH_CHANNEL_4))
+            invite_link_5 = await client.create_chat_invite_link(int(AUTH_CHANNEL_5))
         except ChatAdminRequired:
             logger.error("Mᴀᴋᴇ sᴜʀᴇ Bᴏᴛ ɪs ᴀᴅᴍɪɴ ɪɴ Fᴏʀᴄᴇsᴜʙ ᴄʜᴀɴɴᴇʟ")
             return
@@ -69,6 +70,8 @@ async def start(client, message):
                 InlineKeyboardButton("Backup Channel 3", url=invite_link_3.invite_link)
             ],[
                 InlineKeyboardButton("Backup Channel 4", url=invite_link_4.invite_link)
+            ],[
+                InlineKeyboardButton("Backup Channel 5", url=invite_link_5.invite_link)
             ],[
                 InlineKeyboardButton("Subscribe YouTube channel", url=f"https://youtube.com/@Jnentertainment.?si=jQtbAMXFI2sECql2")
             ]
@@ -83,7 +86,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**u need to subscribe my YouTube channel\n\nLink :- https://youtube.com/@Jnentertainment.?si=jQtbAMXFI2sECql2\n\nand join my below Group then u get file**",
+            text="**join below 👇 all channel and click try again then u get file 📤**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )

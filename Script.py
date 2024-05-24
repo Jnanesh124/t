@@ -1,36 +1,31 @@
 class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ {},
-𝐊𝐚𝐧𝐧𝐚𝐝𝐚 𝐎𝐧𝐥𝐢𝐧𝐞 𝐌𝐨𝐯𝐢𝐞𝐬  🕶
+𝐊𝐚𝐧𝐧𝐚𝐝𝐚 𝐇𝐃 𝐌𝐨𝐯𝐢𝐞𝐬 
+👉 https://t.me/+4Fxg05W56SVkOTY1
 
-t.me/+66Rsf3q0p3c2M2Nl
+𝐊𝐚𝐧𝐧𝐚𝐝𝐚 𝐎𝐧𝐥𝐢𝐧𝐞 𝐌𝐨𝐯𝐢𝐞𝐬 
+👉 https://t.me/+5MMPfVCCiAU5MjU1
 
-𝐊𝐚𝐧𝐧𝐚𝐝𝐚 𝐇𝐃 𝐌𝐨𝐯𝐢𝐞𝐬  🍿
+Bollywood Hindi HD MOVIES 
+👉 https://t.me/+sIUMbwiAsIo4Mjll
 
-t.me/+1z2A8ZxGkEM1N2Q1
+Tamil Telugu Malayalam Movies 🎥
+👉 https://t.me/+hJLWDbymVZsyOTk1
 
-𝐓𝐫𝐞𝐧𝐝𝐢𝐧𝐠 𝐌𝐨𝐯𝐢𝐞𝐬 𝐇𝐃 📸
+Hollywood action movie 
+👉 https://t.me/+zHXxf4Y5ve03YThl
 
-t.me/+8K8gz7k6Ry05YzZl
+18+ Baned Movies A Rated movie Only 🔞
+👉 https://t.me/+GwoURlq-hr1hOTc9
 
-Online Streaming group 💜
+𝐓𝐫𝐞𝐧𝐝𝐢𝐧𝐠 𝐌𝐨𝐯𝐢𝐞𝐬 𝐇𝐃 
+👉 https://t.me/+EVHwFEL-OWdlMjM1
 
-t.me/+oQT1f1iF4fU4ZGVl
+Sex Video porn video 
+👉 https://t.me/+P-wgbt_2dlU3MTM1
 
-18+ banned Movies 🔞
-
-t.me/+3xxIFZXTj9E1M2E1
-
-𝐑𝐨𝐜𝐤𝐞𝐫𝐬 𝐊𝐚𝐧𝐧𝐚𝐝𝐚 𝐓𝐯 𝐒𝐞𝐫𝐢𝐚𝐥𝐬 📺
-
-t.me/Rockers_TV_Serials
-
-Sex porn nudi adult video 🔞🔥
-
-t.me/+Ce98xoyvoLcwYThl
-
-𝐉𝐃 𝐈𝐏𝐋 𝐌𝐚𝐭𝐜𝐡 𝐑𝐞𝐩𝐨𝐫𝐭 ⁱᵖˡ ᵐᵃᵗᶜʰ📢
-
-t.me/+rNwi4b0VLU1iODU1
+Movies 🎥
+👉https://t.me/+LpVX0gNfgEM5ZjE1
 
 ©️@ROCKERSBACKUP</b>"""
 
@@ -38,7 +33,7 @@ t.me/+rNwi4b0VLU1iODU1
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/creatorbeatz'>Jᴏᴇʟ Kᴜʀɪᴀɴ Bɪᴊᴜ</a>
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/alonekingjnanesh'>Jᴏᴇʟ Kᴜʀɪᴀɴ Bɪᴊᴜ</a>
 ✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
 ✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
@@ -192,8 +187,8 @@ Nᴀᴍᴇ - {}"""
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
 • ꜰᴜʟʟ ɴᴀᴍᴇ : ᴊᴏᴇʟ ᴋᴜʀɪᴀɴ ʙɪᴊᴜ
-• ᴜꜱᴇʀɴᴀᴍᴇ : @creatorbeatz
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/creatorbeatz'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ᴜꜱᴇʀɴᴀᴍᴇ : @alonekingjnanesh 
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/alonekingjnanesh'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
@@ -239,37 +234,32 @@ Nᴀᴍᴇ - {}"""
 <b>
 
 =========== • ✠ • ===========
-𝐊𝐚𝐧𝐧𝐚𝐝𝐚 𝐎𝐧𝐥𝐢𝐧𝐞 𝐌𝐨𝐯𝐢𝐞𝐬  🕶
+𝐊𝐚𝐧𝐧𝐚𝐝𝐚 𝐇𝐃 𝐌𝐨𝐯𝐢𝐞𝐬 
+👉 https://t.me/+4Fxg05W56SVkOTY1
 
-t.me/+66Rsf3q0p3c2M2Nl
+𝐊𝐚𝐧𝐧𝐚𝐝𝐚 𝐎𝐧𝐥𝐢𝐧𝐞 𝐌𝐨𝐯𝐢𝐞𝐬 
+👉 https://t.me/+5MMPfVCCiAU5MjU1
 
-𝐊𝐚𝐧𝐧𝐚𝐝𝐚 𝐇𝐃 𝐌𝐨𝐯𝐢𝐞𝐬  🍿
+Bollywood Hindi HD MOVIES 
+👉 https://t.me/+sIUMbwiAsIo4Mjll
 
-t.me/+1z2A8ZxGkEM1N2Q1
+Tamil Telugu Malayalam Movies 🎥
+👉 https://t.me/+hJLWDbymVZsyOTk1
 
-𝐓𝐫𝐞𝐧𝐝𝐢𝐧𝐠 𝐌𝐨𝐯𝐢𝐞𝐬 𝐇𝐃 📸
+Hollywood action movie 
+👉 https://t.me/+zHXxf4Y5ve03YThl
 
-t.me/+8K8gz7k6Ry05YzZl
+18+ Baned Movies A Rated movie Only 🔞
+👉 https://t.me/+GwoURlq-hr1hOTc9
 
-Online Streaming group 💜
+𝐓𝐫𝐞𝐧𝐝𝐢𝐧𝐠 𝐌𝐨𝐯𝐢𝐞𝐬 𝐇𝐃 
+👉 https://t.me/+EVHwFEL-OWdlMjM1
 
-t.me/+oQT1f1iF4fU4ZGVl
+Sex Video porn video 
+👉 https://t.me/+P-wgbt_2dlU3MTM1
 
-18+ banned Movies 🔞
-
-t.me/+3xxIFZXTj9E1M2E1
-
-𝐑𝐨𝐜𝐤𝐞𝐫𝐬 𝐊𝐚𝐧𝐧𝐚𝐝𝐚 𝐓𝐯 𝐒𝐞𝐫𝐢𝐚𝐥𝐬 📺
-
-t.me/Rockers_TV_Serials
-
-Sex porn nudi adult video 🔞🔥
-
-t.me/+Ce98xoyvoLcwYThl
-
-𝐉𝐃 𝐈𝐏𝐋 𝐌𝐚𝐭𝐜𝐡 𝐑𝐞𝐩𝐨𝐫𝐭 ⁱᵖˡ ᵐᵃᵗᶜʰ📢
-
-t.me/+rNwi4b0VLU1iODU1
+Movies 🎥
+👉https://t.me/+LpVX0gNfgEM5ZjE1
 
 ©️@ROCKERSBACKUP
 =========== • ✠ • ===========</b>"""

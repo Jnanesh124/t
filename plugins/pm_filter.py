@@ -621,7 +621,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
 
         try:
-            if (AUTH_CHANNEL and not await is_subscribed(client, query)) (AUTH_CHANNEL_2 and not await is_subscribed(client, query)) (AUTH_CHANNEL_3 and not await is_subscribed(client, query)) (AUTH_CHANNEL_4 and not await is_subscribed(client, query)) :
+            if (AUTH_CHANNEL and not await is_subscribed(client, query)) (AUTH_CHANNEL_2 and not await is_subscribed(client, query)) (AUTH_CHANNEL_3 and not await is_subscribed(client, query)) (AUTH_CHANNEL_4 and not await is_subscribed(client, query)) (AUTH_CHANNEL_5 and not await is_subscribed(client, query)):
                 if clicked == typed:
                     await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
                     return
@@ -1361,7 +1361,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/creatorbeatz")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/alonekingjnanesh")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 

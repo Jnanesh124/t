@@ -604,12 +604,12 @@ async def get_token(bot, userid, link, fileid):
     return str(shortened_verify_url)
 
 async def send_all(bot, userid, files, ident):
-    if (AUTH_CHANNEL and not await is_subscribed(client, message)) and (AUTH_CHANNEL_2 and not await is_subscribed(client, message)) and (AUTH_CHANNEL_3 and not await is_subscribed(client, message)) and (AUTH_CHANNEL_4 and not await is_subscribed(client, message)):
+    if (AUTH_CHANNEL and not await is_subscribed(bot=bot, userid=userid)) and (AUTH_CHANNEL_2 and not await is_subscribed(bot=bot, userid=userid)) and (AUTH_CHANNEL_3 and not await is_subscribed(bot=bot, userid=userid)) and (AUTH_CHANNEL_4 and not await is_subscribed(bot=bot, userid=userid)):
         try:
-            invite_link = await client.create_chat_invite_link(int(AUTH_CHANNEL))
-            invite_link_2 = await client.create_chat_invite_link(int(AUTH_CHANNEL_2))
-            invite_link_3 = await client.create_chat_invite_link(int(AUTH_CHANNEL_3))
-            invite_link_4 = await client.create_chat_invite_link(int(AUTH_CHANNEL_4))
+            invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
+            invite_link_2 = await bot.create_chat_invite_link(int(AUTH_CHANNEL_2))
+            invite_link_3 = await bot.create_chat_invite_link(int(AUTH_CHANNEL_3))
+            invite_link_4 = await bot.create_chat_invite_link(int(AUTH_CHANNEL_4))
         except ChatAdminRequired:
             logger.error("Mᴀᴋᴇ sᴜʀᴇ Bᴏᴛ ɪs ᴀᴅᴍɪɴ ɪɴ Fᴏʀᴄᴇsᴜʙ ᴄʜᴀɴɴᴇʟ")
             return
